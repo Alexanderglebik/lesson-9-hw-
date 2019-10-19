@@ -14,7 +14,7 @@
 
         <div>
             <label for="Enter your first name"> First name: </label>
-            <input required id="Enter your first name" type="text" placeholder="Enter your first name"/>    
+            <input required id="Enter_your_first_name" type="text" placeholder="Enter your first name"/>    
         </div>
         <br>
         <div>
@@ -24,12 +24,12 @@
         <br>
         <div>
             <label for="example@mail.ru"> Email: </label>
-            <input required id="example@mail.ru" multiple type="email" placeholder="example@mail.ru"/>    
+            <input required id="example@mail.ru" placeholder="example@mail.ru"/>    
         </div>
         <br>
         <div>
             <label for="At least 6 symbols"> Password: </label>
-            <input required id="At least 6 symbols" minlength="1"maxlength="6" type="password" placeholder="At least 6 symbols"/>    
+            <input required id="At least 6 symbols" minlength="6"maxlength="32" type="password" placeholder="At least 6 symbols"/>    
         </div>
         <br>
         <div>
@@ -50,13 +50,13 @@
         <br>
         <div>
             <label for="1000"> Desired salary: </label>
-            <input size="10" min="100" max="2000" id="1000" pattern="2000" type="text" placeholder="1000"/> $$    
+            <input size="10" min="100" max="2000" id="1000" type="text" placeholder="1000"/> $$    
         </div>
         <br>
         <div>
           <label> Position: </label> 
           <input type="radio" name="option" checked/> Frontend developer
-          <input type="radio" name="optin"/> Backend developer
+          <input type="radio" name="option"/> Backend developer
           <input type="radio" name="option"/> UI Designer  
         </div>
         <br>
@@ -91,7 +91,7 @@
         <br>
         <div>
             <label> Your photo: </label>
-            <input type="file" accept="image/*" multiple />
+            <input type="file" accept="image/*" />
         </div>
     </fieldset>
     <br>
